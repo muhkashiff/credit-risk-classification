@@ -24,14 +24,20 @@ Belowe are results of Logistic Regression Models.
              High risk loand ("1") : 91% 
 
 * Machine Learning Model 2:
- <ul>Accuracy</ul>
-  <ul>Precision</ul>
-  <ul>Recall score</ul>
+ <li>Accuracy</li>
+    Balanced Accuracy : 99%<br>
+  <li>Precision</li>
+    Precision:  Healthy Loan ("0"): 100%<br>
+                High risk loan ("1") : 84%<br>
+  <li>Recall score</li>
+    Recall:  Healthy Loan ("0"): 99%<br>
+             High risk loan ("1") : 99% 
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+Original data accuracy increased from 95% to 99% after performing RandomOversampling.
+since Original Data was imblananced so accuracy can not be consider  a greater measure of model validation.
+However, RandomOverSampling produced better accuracy results.
+Recall is also known as True positive rate, this gives a better idea of how many positive values are predicted.
+After RandomoverSampling was performed, Recall rate for High Risk Loan ("1") was increased from 91 to 99.
+RandomOverSampling model is performing better than Original Data Model.
+In my opinion, High Risk Loan prediction is important since it is in best interest of the lender to find the borrower who is not able to pay the money back.
