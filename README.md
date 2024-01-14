@@ -41,3 +41,6 @@ Recall is also known as True positive rate, this gives a better idea of how many
 After RandomoverSampling was performed, Recall rate for High Risk Loan ("1") was increased from 91 to 99.
 RandomOverSampling model is performing better than Original Data Model.
 In my opinion, High Risk Loan prediction is important since it is in best interest of the lender to find the borrower who is not able to pay the money back.
+## Reference:
+Below link was used only to get clue for RandomOversampling code.
+www.github.com/hfattor/credit-risk-classification/tree/main
