@@ -21,7 +21,7 @@ Belowe are results of Logistic Regression Models.
                 High risk loand ("1") : 85%<br>
   <li>Recall score</li>
     Recall:  Healthy Loan ("0"): 99%<br>
-             High risk loand ("1") : 91% 
+             High risk loand ("1") : 91% <br>
 
 * Machine Learning Model 2:
  <li>Accuracy</li>
