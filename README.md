@@ -14,12 +14,12 @@ Belowe are results of Logistic Regression Models.
 <ul>Machine Learning Model 2- RandomOverSampling</ul>
 
 * Machine Learning Model 1:
-  <li>Accuracy</li><br>
-    Balanced Accuracy : 95%
-  <li>Precision</li><br>
+  <li>Accuracy</li>
+    Balanced Accuracy : 95%<br>
+  <li>Precision</li>
     Precision:  Healthy Loan ("0"): 100%<br>
-                High risk loand ("1") : 85%
-  <li>Recall score</li><br>
+                High risk loand ("1") : 85%<br>
+  <li>Recall score</li>
     Recall:  Healthy Loan ("0"): 99%<br>
              High risk loand ("1") : 91% 
 
